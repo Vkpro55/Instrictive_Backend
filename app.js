@@ -2,8 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
 
-import studentRoutes from './routes/studentRoutes.js';
-
+import studentRoutes from "./routes/studentRoutes.js"
 
 const app = express();
 app.use(cors({ origin: '*' }));
