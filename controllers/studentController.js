@@ -7,7 +7,7 @@ export const getAllStudents = async (req, res) => {
     try {
         const students = await prisma.student.findMany({
             include: {
-                courses: true, // Include associated courses
+                courses: true,
             },
         });
         res.status(200).json(students);
