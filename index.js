@@ -1,3 +1,5 @@
+// DATABASE_URL=postgresql://postgres:p%23A%2DNG%5F9hQ_mvig@db.onilpseoeixitudzjycg.supabase.co:5432/postgres
+
 import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
